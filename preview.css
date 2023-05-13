@@ -1,0 +1,79 @@
+ * {
+    box-sizing: border-box;
+ }
+ body {
+    background-color: hsl(30, 38%, 92%);
+ }
+ .container {
+    width: 60%;
+    margin: 87px auto;
+ }
+ .container .content{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    gap: 35px;
+    max-width: 625.8px;
+ }
+ .container .content img{
+    max-width: 300px;
+    border-radius: 10px;
+ }
+ .container .content .text p.one {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color:hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+    margin-top: 30px;
+ }
+ .container .content .text h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 1;
+    margin-top: 30px;
+    padding-right: 60px;
+    color: hsl(212, 21%, 14%);
+ }
+ .container .content .text .two{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color:hsl(228, 12%, 48%);
+    line-height: 1.7;
+    padding-right: 40px;
+ }
+ .container .content .text .cost .on{
+    color:  hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 35px;
+ }
+ .container .content .text .cost .off {
+    font-family: 'Montserrat', sans-serif;
+    color: #ccc;
+    padding-left: 20px;
+    text-decoration: line-through;
+ }
+
+ .container .content .text .cost {
+    margin-bottom: 35px;
+ }
+ .container .content .text a{
+    background-color: hsl(158, 36%, 37%);
+    text-decoration: none;
+    color: white;
+    padding: 15px 85px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+ }
+ .container .content .text a:hover {
+    background-color: hsl(158, 36%, 20%);
+ }
+
+
+
+
+
